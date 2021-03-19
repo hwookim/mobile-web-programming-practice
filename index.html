@@ -7,24 +7,24 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>텍스트 꾸미기</title>
+    <title>모바일 웹 프로그래밍</title>
   </head>
-  <body>
-    <h3>텍스트 꾸미기</h3>
-    <hr />
-    <p>
-      <b>진하게</b><br />
-      <strong>중요한</strong><br />
-      <em>강조</em><br />
-      <i>이탤릭</i><br />
-      <b><i>진하게 이탤릭</i></b
-      ><br />
-      보통문자 <small>한단계작은문자</small><br />
-      <del>삭제</del><br />
-      <ins>추가</ins><br />
-      보통문자의 <sup>윗첨자</sup><br />
-      보통문자의 <sub>아래첨자</sub><br />
-      <mark>하이라이팅</mark><br />
-    </p>
+  <body style="padding: 0">
+    <div style="width: 100vw; height: 100vh; padding: 0">
+      <h3>2개의 윈도우 가짐</h3>
+      <hr />
+      <iframe
+        src="leftFrame.html"
+        name="left"
+        width="15%"
+        height="80%"
+      ></iframe>
+      <iframe
+        src="rightFrame.html"
+        name="right"
+        width="80%"
+        height="80%"
+      ></iframe>
+    </div>
   </body>
 </html>
