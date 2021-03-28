@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "live-server": "^1.2.1",
+    "prettier": "^2.2.1"
   }
 }
