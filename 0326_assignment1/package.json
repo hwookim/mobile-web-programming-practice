@@ -1,7 +1,7 @@
 {
   "name": "mportpolio_2016112661",
   "version": "1.0.0",
-  "description": "",
+  "description": "모바일웹프로그래밍 4주차 과제",
   "main": "index.js",
   "scripts": {
     "start": "live-server"
