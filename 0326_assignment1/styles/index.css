@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+  list-style: none;
 }
 
 a {
@@ -43,25 +44,26 @@ a {
   font-size: 1.5rem;
 }
 
-.main-navigator {
+.navigator {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  width: 30%;
   margin: auto;
-}
-
-.main-navigator ul {
-  padding: 2rem;
+  padding: 2rem 0;
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.9);
 }
 
-.main-navigator li {
-  margin: 3rem;
-  list-style: none;
+.linker {
+  margin: 3rem auto;
+  width: 100%;
+  font-size: 3rem;
   text-align: center;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
 }
 
-.main-navigator li a {
-  font-size: 3rem;
+.linker:hover {
+  background: black;
+  color: white;
 }
