@@ -50,11 +50,11 @@
 }
 
 .main-navigator li {
-  margin: 4rem;
+  margin: 2rem;
   list-style: none;
   text-align: center;
 }
 
 .main-navigator li a {
-  font-size: 5rem;
+  font-size: 3rem;
 }
