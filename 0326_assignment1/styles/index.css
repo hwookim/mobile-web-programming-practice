@@ -13,6 +13,8 @@ a {
 .app {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   background: black;
@@ -26,12 +28,7 @@ a {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  margin: 0 auto;
   color: white;
-}
-
-.title div {
-  margin: auto;
 }
 
 .title div h1 {
@@ -48,7 +45,6 @@ a {
   display: flex;
   flex-direction: column;
   width: 400px;
-  margin: auto;
   padding: 2rem 0;
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.9);
