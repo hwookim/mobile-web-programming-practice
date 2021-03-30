@@ -19,7 +19,7 @@ a {
 }
 
 .spacer {
-  height: 15%;
+  height: 10%;
 }
 
 .title {
@@ -44,10 +44,10 @@ a {
   font-size: 1.5rem;
 }
 
-.navigator {
+.navigation {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 400px;
   margin: auto;
   padding: 2rem 0;
   border-radius: 50px;
@@ -66,4 +66,15 @@ a {
 .linker:hover {
   background: black;
   color: white;
+}
+
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+  * {
+    font-size: 10px;
+  }
+
+  .navigation {
+    width: 255px;
+  }
 }
