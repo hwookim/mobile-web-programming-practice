@@ -94,9 +94,18 @@
   box-shadow: 0 0 5px 0 #a5a5a5;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1005px) {
   .me {
     display: none;
+  }
+
+  .contact i {
+    font-size: 1.2rem;
+    width: 1.4rem;
+  }
+
+  .contact b {
+    font-size: 1rem;
   }
 }
 
