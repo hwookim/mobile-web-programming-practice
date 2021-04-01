@@ -9,8 +9,12 @@
   justify-content: space-between;
 }
 
-.profile img {
+.me {
   width: 20%;
+}
+.me img {
+  width: 100%;
+  height: auto;
 }
 
 .profile h1 {
@@ -91,4 +95,33 @@
   margin-right: 10px;
   border-radius: 5px;
   box-shadow: 0 0 5px 0 #a5a5a5;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .profile {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .profile img {
+    display: none;
+  }
+
+  .contact {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .skills {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .skill-box.center {
+    margin: 20px 0;
+    padding: 20px 0;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
 }

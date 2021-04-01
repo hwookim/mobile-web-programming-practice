@@ -72,4 +72,9 @@ sub {
   .navigation {
     justify-content: center;
   }
+
+  .main {
+    width: 90vw;
+    overflow-x: hidden;
+  }
 }
