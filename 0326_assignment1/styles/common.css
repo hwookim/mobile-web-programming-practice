@@ -44,6 +44,13 @@ a {
 }
 
 .navigation a {
+  padding: 8px;
+  border-radius: 50px;
   color: white;
+  transition: all 0.5s;
 }
 
+.navigation a:hover {
+  color: black;
+  background: white;
+}
