@@ -1,0 +1,92 @@
+.link-container {
+  float: right;
+  margin: 20px 0;
+}
+
+.link-container i {
+  font-size: 1.5rem;
+}
+
+.link-container a {
+  font-size: 1.5rem;
+}
+
+.title span {
+  margin-left: 20px;
+  font-size: 0.5em;
+  color: gray;
+}
+
+.experience-describe {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+}
+
+.experience-describe b {
+  font-size: 1.4rem;
+}
+
+.experience-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-container {
+  height: 40vh;
+  width: fit-content;
+}
+
+.img-container img {
+  width: auto;
+  height: 100%;
+}
+
+.experience-detail p {
+  font-size: 1.2rem;
+}
+
+.experience-detail li{
+  margin: 10px 20px;
+  list-style: circle;
+}
+
+.character {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .link-container {
+    float: none;
+  }
+
+  .title span {
+    display: block;
+    margin: 0;
+  }
+
+  .experience-describe {
+    font-size: 1.2rem;
+  }
+
+  .experience-describe b {
+    display: block;
+  }
+
+  .experience-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-stack b {
+    display: block;
+  }
+
+  .character {
+    display: inline;
+    position: absolute;
+    width: 100px;
+    top: 120px;
+    right: 0;
+  }
+}
