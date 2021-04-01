@@ -12,6 +12,7 @@ a {
 .app {
   display: flex;
   flex-direction: column;
+  background: #eeeeee;
 }
 
 .navigation {
@@ -48,6 +49,15 @@ a {
 
 .nav-spacer {
   height: 50px;
+}
+
+.main {
+  margin: auto;
+  padding: 20px;
+  width: 60%;
+  height: 100vh;
+  background: white;
+  box-shadow: 0 0 1000px 50px white;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
