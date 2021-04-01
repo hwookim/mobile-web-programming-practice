@@ -8,7 +8,14 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>김현우 - Project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/project.css" />
   </head>
   <body>
     <nav class="navigation">
@@ -20,5 +27,68 @@
       </ul>
     </nav>
     <div class="nav-spacer"></div>
+    <main class="main">
+      <article>
+        <div class="link-container">
+          <a
+            href="https://github.com/woowacourse-teams/2020-doran-doran/"
+            target="_blank"
+          >
+            <i class="fa fa-github" aria-hidden="true"></i>
+            Github Repository
+          </a>
+        </div>
+
+        <h1 class="title">도란도란<span>(2020.07 ~ 2020.11)</span></h1>
+
+        <div class="describe">
+          지도 위에서 주위 사람들과 소통할 수 있는
+          <b>위치 기반 커뮤니티 서비스</b>
+        </div>
+
+        <div class="info">
+          <div class="img-container">
+            <img src="assets/dorandoran.png" alt="doran" />
+          </div>
+
+          <div class="project-info">
+            <div class="project-contribute">
+              <h2>기여</h2>
+              <ul>
+                <li>
+                  Vue.js 기반 프론트 페이지 구현
+                  <ul>
+                    <li>Vue Style Guide를 참고한 팀 컨벤션 제정</li>
+                    <li>
+                      KakaoMap Api의 원활한 사용을 위한 Vue.js 플러그인 구현
+                    </li>
+                    <li>vue-router를 이용한 모달창 관리</li>
+                  </ul>
+                </li>
+                <li>Git Flow, Github Kanban을 통한 프로젝트 관리</li>
+                <li>코드리뷰를 통한 코드 병합 관리</li>
+                <li>Spring Boot 기반 API 설계 및 구현</li>
+                <li>
+                  인프라 환경 구축
+                  <ul>
+                    <li>Nginx를 이용한 정적 자원 제공 및 캐싱</li>
+                    <li>Jenkins를 통한 무중단 CI/CD 환경 구축</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="project-stack">
+              <h2>기술 스택</h2>
+              <ul>
+                <li>FrontEnd : JavaScript (ES6), Vue.js 2, Vuetify, Axios</li>
+                <li>BackEnd : Java8, JUnit5, Spring Boot 2.3, Spring Data JPA, QueryDSL</li>
+                <li>Infra : Maria DB, AWS EC2, Jenkins, Nginx, Git</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>

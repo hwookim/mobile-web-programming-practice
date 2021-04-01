@@ -1,0 +1,68 @@
+.link-container {
+  float: right;
+  margin-top: 10px;
+}
+
+.link-container a {
+  font-size: 1.5rem;
+}
+
+.link-container i {
+  font-size: 2rem;
+}
+
+.title span {
+  margin-left: 20px;
+  font-size: 0.5em;
+  color: gray;
+}
+
+.describe {
+  margin-bottom: 50px;
+  font-size: 1.4rem;
+}
+
+.describe b {
+  font-size: 1.4rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-container {
+  height: 50vh;
+  width: fit-content;
+}
+
+.img-container img {
+  width: auto;
+  height: 100%;
+}
+
+.project-info {
+  flex-basis: 55%;
+}
+
+.project-info h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.project-contribute {
+  margin-bottom: 20px;
+}
+
+.project-contribute li {
+  margin: 10px;
+  list-style: circle;
+}
+
+.project-contribute li li {
+  margin-left: 20px;
+}
+
+.project-stack li {
+  margin: 5px 0;
+}

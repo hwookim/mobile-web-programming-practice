@@ -60,6 +60,11 @@ a {
   box-shadow: 0 0 1000px 50px white;
 }
 
+.title {
+   margin: 20px;
+   font-size: 3rem;
+ }
+
 sub {
   position: relative;
   margin-left: 3px;
