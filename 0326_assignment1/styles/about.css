@@ -1,0 +1,44 @@
+.main {
+  margin: auto;
+  padding: 20px;
+  width: 60%;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.profile h1 {
+  display: inline;
+  font-size: 2rem;
+}
+
+.profile h2 {
+  display: inline;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.job {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.introduce {
+  margin-top: 20px;
+}
+
+.introduce p {
+  margin-bottom: 10px;
+}
