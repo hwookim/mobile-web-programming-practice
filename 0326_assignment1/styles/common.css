@@ -1,0 +1,49 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  * {
+    font-size: 10px;
+  }
+
+  .linker-container {
+    width: 255px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.app {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  top: 0;
+  background-color: black;
+}
+
+.navigation ul {
+  display: flex;
+  margin-right: 10px;
+}
+
+.navigation ul li {
+  margin: 10px;
+}
+
+.navigation a {
+  color: white;
+}
+
