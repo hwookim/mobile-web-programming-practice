@@ -17,16 +17,16 @@
   color: gray;
 }
 
-.describe {
-  margin-bottom: 50px;
+.project-describe {
+  margin-bottom: 30px;
   font-size: 1.4rem;
 }
 
-.describe b {
+.project-describe b {
   font-size: 1.4rem;
 }
 
-.info {
+.project-info {
   display: flex;
   justify-content: space-between;
 }
@@ -41,11 +41,11 @@
   height: 100%;
 }
 
-.project-info {
+.project-detail {
   flex-basis: 55%;
 }
 
-.project-info h2 {
+.project-detail h2 {
   margin-bottom: 15px;
   font-size: 1.8rem;
 }
