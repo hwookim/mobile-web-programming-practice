@@ -60,6 +60,14 @@ a {
   box-shadow: 0 0 1000px 50px white;
 }
 
+sub {
+  position: relative;
+  margin-left: 3px;
+  bottom: -0.3em;
+  font-size: 0.7em;
+}
+
+/* mobile */
 @media (min-width: 320px) and (max-width: 480px) {
   .navigation {
     justify-content: center;
