@@ -29,7 +29,7 @@
   font-size: 1.5rem;
 }
 
-.linker-container {
+.link-container {
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -38,7 +38,7 @@
   background: rgba(255, 255, 255, 0.9);
 }
 
-.linker {
+.link-container a {
   margin: 3rem auto;
   width: 100%;
   font-size: 3rem;
@@ -47,7 +47,7 @@
   -webkit-transition: all 0.5s ease-in;
 }
 
-.linker:hover {
+.link-container a:hover {
   background: black;
   color: white;
 }
@@ -57,7 +57,7 @@
     font-size: 12px;
   }
 
-  .linker-container {
+  .link-container {
     width: 255px;
   }
 }
