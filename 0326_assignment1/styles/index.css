@@ -52,8 +52,11 @@
   color: white;
 }
 
-
 @media (min-width: 320px) and (max-width: 480px) {
+  * {
+    font-size: 12px;
+  }
+
   .linker-container {
     width: 255px;
   }
