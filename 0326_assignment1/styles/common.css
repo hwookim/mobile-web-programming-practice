@@ -21,6 +21,7 @@ a {
 }
 .app {
   display: flex;
+  flex-direction: column;
 }
 
 .navigation {
@@ -53,4 +54,8 @@ a {
 .navigation a:hover {
   color: black;
   background: white;
+}
+
+.nav-spacer {
+  height: 50px;
 }
