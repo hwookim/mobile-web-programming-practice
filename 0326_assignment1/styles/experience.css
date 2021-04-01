@@ -56,37 +56,21 @@
 }
 
 @media (max-width: 480px) {
-  .link-container {
-    float: none;
-  }
-
   .title span {
     display: block;
     margin: 0;
+  }
+
+  .img-container {
+    display: none;
   }
 
   .experience-describe {
     font-size: 1.2rem;
   }
 
-  .experience-describe b {
-    display: block;
-  }
-
   .experience-info {
     flex-direction: column;
     align-items: center;
-  }
-
-  .experience-stack b {
-    display: block;
-  }
-
-  .character {
-    display: inline;
-    position: absolute;
-    width: 100px;
-    top: 120px;
-    right: 0;
   }
 }

@@ -80,6 +80,10 @@ sub {
 }
 
 @media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+
   .navigation {
     justify-content: center;
   }
