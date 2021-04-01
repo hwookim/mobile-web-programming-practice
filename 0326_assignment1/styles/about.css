@@ -11,7 +11,9 @@
 
 .me {
   width: 20%;
+  padding-right: 20px;
 }
+
 .me img {
   width: 100%;
   height: auto;
@@ -96,15 +98,16 @@
   border-radius: 5px;
   box-shadow: 0 0 5px 0 #a5a5a5;
 }
+@media (max-width: 1400px) {
+  .me {
+    display: none;
+  }
+}
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   .profile {
     flex-direction: column;
     margin-bottom: 10px;
-  }
-
-  .profile img {
-    display: none;
   }
 
   .contact {
