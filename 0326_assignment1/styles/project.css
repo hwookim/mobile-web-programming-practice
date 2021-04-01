@@ -67,6 +67,10 @@
   margin: 10px 0;
 }
 
+.character {
+  display: none;
+}
+
 @media (max-width: 480px) {
   .link-container {
     float: none;
@@ -100,5 +104,13 @@
 
   .project-stack b {
     display: block;
+  }
+
+  .character {
+    display: inline;
+    position: absolute;
+    width: 100px;
+    top: 120px;
+    right: 0;
   }
 }
